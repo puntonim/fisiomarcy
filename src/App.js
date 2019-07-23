@@ -16,7 +16,13 @@ export default class App extends React.Component {
                         theme='dark'
                         mode='horizontal'
                         defaultSelectedKeys={[this.defaultMenuItem]}
-                        style={{ lineHeight: '64px' }}
+                        style={{
+                            width: '100vw',
+                            maxWidth: 800,
+                            marginLeft: 'auto',
+                            marginRight: 'auto',
+                            lineHeight: '64px',
+                        }}
                     >
                         <Menu.Item
                             key='1'
@@ -32,7 +38,16 @@ export default class App extends React.Component {
                         </Menu.Item>
                     </Menu>
                 </Header>
-                <Content style={{ padding: '0 50px', marginTop: 80 }}>
+                <Content
+                    className='Content'
+                    style={{
+                        width: '100vw',
+                        maxWidth: 800,
+                        marginLeft: 'auto',
+                        marginRight: 'auto',
+                        marginTop: 80,
+                    }}
+                >
                     {this.state.selectedItem !== this.defaultMenuItem ? (
                         <Cardio />
                     ) : (
@@ -41,7 +56,7 @@ export default class App extends React.Component {
                 </Content>
                 <Footer style={{ textAlign: 'center' }}>
                     <a className='naked' href='.'>
-                        Fisio Marcy
+                        Fisio Marcy 2019
                     </a>
                 </Footer>
             </Layout>

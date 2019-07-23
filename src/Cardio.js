@@ -7,6 +7,7 @@ export default function Cardio() {
             <div
                 style={{
                     fontSize: '1.2em',
+                    lineHeight: '1.15em',
                 }}
             >
                 Programma per <strong>esercizi di cardio</strong>:
@@ -27,8 +28,8 @@ export default function Cardio() {
             >
                 <ul style={{ paddingLeft: '1em' }}>
                     <li>
-                        30-45 minuti possono bastare, bisogna però bisogna avere
-                        un ritmo che porta ad avere fiatone e sudore
+                        30-45 minuti per sessione possono bastare, bisogna però
+                        tenere un ritmo che porta ad avere fiatone e sudore
                     </li>
                     <li>
                         Correre è meglio che camminare perchè sollecita molto di

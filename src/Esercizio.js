@@ -10,6 +10,10 @@ export default class Esercizio extends React.Component {
                     marginBottom: '1em',
                 }}
                 headStyle={{ backgroundColor: '#b54915', color: '#f5f5f5' }}
+                bodyStyle={{
+                    fontSize: '1.2em',
+                    lineHeight: '1.15em',
+                }}
             >
                 {this.props.children}
                 <div style={{ textAlign: 'center' }}>

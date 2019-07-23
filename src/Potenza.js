@@ -7,6 +7,7 @@ export default function Potenza() {
             <div
                 style={{
                     fontSize: '1.2em',
+                    lineHeight: '1.15em',
                 }}
             >
                 Programma per <strong>esercizi di potenza</strong>:

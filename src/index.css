@@ -1,7 +1,9 @@
-body,
+body {
+    background-color: rgb(185, 190, 196) !important;
+}
 .ant-layout,
 .ant-layout-footer {
-    background-color: #00152926 !important;
+    background: none !important;
 }
 
 .ant-layout-footer {
