@@ -32,20 +32,12 @@ export default class App extends React.Component {
                         </Menu.Item>
                     </Menu>
                 </Header>
-                <Content style={{ padding: '0 50px', marginTop: 64 }}>
-                    <div
-                        style={{
-                            background: '#fff',
-                            padding: 24,
-                            minHeight: 380,
-                        }}
-                    >
-                        {this.state.selectedItem !== this.defaultMenuItem ? (
-                            <Cardio />
-                        ) : (
-                            <Potenza />
-                        )}
-                    </div>
+                <Content style={{ padding: '0 50px', marginTop: 80 }}>
+                    {this.state.selectedItem !== this.defaultMenuItem ? (
+                        <Cardio />
+                    ) : (
+                        <Potenza />
+                    )}
                 </Content>
                 <Footer style={{ textAlign: 'center' }}>Fisio Marcy</Footer>
             </Layout>
@@ -53,7 +45,6 @@ export default class App extends React.Component {
     }
 
     onItemClick(i) {
-        console.log(i)
         this.setState({ ...this.state, selectedItem: i })
     }
 }
