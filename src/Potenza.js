@@ -11,7 +11,9 @@ export default function Potenza() {
             >
                 Programma per <strong>esercizi di potenza</strong>:
                 <ul>
-                    <li>3 giorni a settimana</li>
+                    <li>
+                        3 giorni a settimana, nei giorni in cui NON si fa cardio
+                    </li>
                     <li>
                         10 ripetute max, per 4 volte con pause da 90 sec ogni
                         volta
@@ -23,6 +25,11 @@ export default function Potenza() {
                     <li>
                         Dalla terza settimana in poi, i pesi aumentano e le
                         ripetute max sono 6
+                    </li>
+                    <li>
+                        Una singola sessione di 1 giorno deve comprendere:
+                        stacchi + panca piana + almeno 2 esercizi arti superiori
+                        + almeno 2 esercizi arti inferiori
                     </li>
                 </ul>
             </div>
@@ -105,6 +112,20 @@ export default function Potenza() {
                         Devono lavorare sia le braccia sia gli addominali che
                         tengono fermo il busto
                     </li>
+                </ul>
+            </Esercizio>
+
+            <Esercizio
+                title='5. Esercizi di potenza: ARTI INFERIORI'
+                youtubeUrl='https://www.youtube.com/embed/9Z2R3GKS3Bg'
+            >
+                <ul style={{ paddingLeft: '1em' }}>
+                    <li>
+                        Devi fare 2 tipi di esercizi sugli arti inferiori -
+                        questo nel video è uno, un altro può essere la macchina
+                        con cui si spingono i pesi in avanti/alto con le gambe
+                    </li>
+                    <li>Lavorare sempre su una gamba per volta</li>
                 </ul>
             </Esercizio>
         </div>
