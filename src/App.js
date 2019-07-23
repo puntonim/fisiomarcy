@@ -39,7 +39,11 @@ export default class App extends React.Component {
                         <Potenza />
                     )}
                 </Content>
-                <Footer style={{ textAlign: 'center' }}>Fisio Marcy</Footer>
+                <Footer style={{ textAlign: 'center' }}>
+                    <a className='naked' href='.'>
+                        Fisio Marcy
+                    </a>
+                </Footer>
             </Layout>
         )
     }
