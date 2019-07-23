@@ -25,5 +25,10 @@ Add this code to the babel section in package.json:
 But doing the `eject` is never the best solution solution, thus I might try to just
 import the main Ant css file in `public/index.html`
 
+## Deploy
+```bash
+$ npm run deploy
+```
+
 ## Copyright
 Copyright 2019 puntonim (https://github.com/puntonim). No License.
