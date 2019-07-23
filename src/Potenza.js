@@ -65,6 +65,48 @@ export default function Potenza() {
                     <li>Nel video stavi usando 39 kg</li>
                 </ul>
             </Esercizio>
+
+            <Esercizio
+                title='3. Esercizio di potenza: ALZATE ARTI SUPERIORI'
+                youtubeUrl='https://www.youtube.com/embed/4m0HHWh_IR8'
+            >
+                <ul style={{ paddingLeft: '1em' }}>
+                    <li>
+                        Lavorare su un braccio per volta e usare pesi diversi
+                        per braccia diverse, perchè devi ancora recuperare la
+                        piena forza nella spalla infortunata
+                    </li>
+                    <li>
+                        Tieni la schiena dritta senza incurvarla indietro e il
+                        braccio ben allineato alla spalla
+                    </li>
+                    <li>
+                        Nel video stavi usando 8 kg sul braccio sinistro e 4 kg
+                        sul destro
+                    </li>
+                </ul>
+            </Esercizio>
+
+            <Esercizio
+                title='4. Esercizio di potenza: BICIPITI'
+                youtubeUrl='https://www.youtube.com/embed/fFTRb8a4wv0'
+            >
+                <ul style={{ paddingLeft: '1em' }}>
+                    <li>
+                        Lavorare su un braccio per volta e usare pesi diversi
+                        per braccia diverse, perchè devi ancora recuperare la
+                        piena forza nella spalla infortunata
+                    </li>
+                    <li>
+                        Tieni la schiena dritta e ferma senza incurvarla
+                        indietro o avanti e senza pendolare
+                    </li>
+                    <li>
+                        Devono lavorare sia le braccia sia gli addominali che
+                        tengono fermo il busto
+                    </li>
+                </ul>
+            </Esercizio>
         </div>
     )
 }
