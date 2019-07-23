@@ -2,6 +2,7 @@
     "name": "fisiomarcy",
     "version": "0.1.0",
     "private": true,
+    "homepage": ".",
     "dependencies": {
         "@babel/core": "7.4.3",
         "@svgr/webpack": "4.1.0",
@@ -62,7 +63,8 @@
     "scripts": {
         "start": "node scripts/start.js",
         "build": "node scripts/build.js",
-        "test": "node scripts/test.js"
+        "test": "node scripts/test.js",
+        "deploy": "node scripts/build.js; node ./node_modules/.bin/gh-pages -u 'puntonim <puntonim@gmail.com>' -d build -r https://github.com/puntonim/fisiomarcy.git"
     },
     "eslintConfig": {
         "extends": "react-app"
@@ -80,7 +82,8 @@
         ]
     },
     "devDependencies": {
-        "babel-plugin-import": "^1.12.0"
+        "babel-plugin-import": "^1.12.0",
+        "gh-pages": "^2.0.1"
     },
     "prettier": {
         "tabWidth": 4,
